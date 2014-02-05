@@ -8,5 +8,5 @@ Use the [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-mul
 And set LD_LIBRARY_PATH
 
 ```
-heroku config:set LD_LIBRARY_PATH=/app/vendor/libsodium-0.4.5/src/libsodium/.libs
+heroku config:set LD_LIBRARY_PATH=vendor/libsodium-0.4.5/src/libsodium/.libs
 ```
